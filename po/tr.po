@@ -1,0 +1,458 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cutefish-clock\n"
+"Report-Msgid-Bugs-To: https://github.com/cutefishos\n"
+"POT-Creation-Date: 2026-11-23 23:17+0800\n"
+"PO-Revision-Date: 2026-11-25 00:50+0300\n"
+"Last-Translator: Turkish Localization Team\n"
+"Language-Team: Turkish\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/alarms/alarmeditor.cpp src/alarms/alarmspage.cpp
+msgid "New Alarm"
+msgstr "Yeni Alarm"
+
+#: src/alarms/alarmeditor.cpp
+msgid "Edit Alarm"
+msgstr "Alarmı Düzenle"
+
+#: src/alarms/alarmeditor.cpp
+msgid "Repeat"
+msgstr "Tekrarla"
+
+#: src/alarms/alarmeditor.cpp src/alarms/alarmspage.cpp
+#: src/service/alarmservice.cpp
+msgid "Alarm"
+msgstr "Alarm"
+
+#: src/alarms/alarmeditor.cpp src/timers/composer.cpp
+msgid "Label"
+msgstr "Etiket"
+
+#: src/alarms/alarmeditor.cpp src/timers/composer.cpp
+msgid "Sound"
+msgstr "Ses"
+
+#: src/alarms/alarmeditor.cpp src/service/alarmservice.cpp
+msgid "Snooze"
+msgstr "Ertele"
+
+#: src/alarms/alarmeditor.cpp
+msgid "Delete Alarm"
+msgstr "Alarmı Sil"
+
+#: src/alarms/alarmeditor.cpp src/timers/composer.cpp src/timers/timercard.cpp
+msgid "Cancel"
+msgstr "İptal"
+
+#: src/alarms/alarmeditor.cpp
+msgid "Add"
+msgstr "Ekle"
+
+#: src/alarms/alarmeditor.cpp
+msgid "Save"
+msgstr "Kaydet"
+
+#. TRANSLATORS: under the editor's time, such as "Rings in 7 hours 20 minutes".
+#: src/alarms/alarmeditor.cpp
+#, python-brace-format
+msgid "Rings {when}"
+msgstr "{when} çalacak"
+
+#: src/alarms/alarmspage.cpp
+msgid "No Alarms"
+msgstr "Alarm Yok"
+
+#: src/alarms/alarmspage.cpp
+msgid "Alarms ring even when Clock is closed."
+msgstr "Saat uygulaması kapalıyken bile alarmlar çalar."
+
+#. TRANSLATORS: an alarm's label and when it repeats, such as "Wake Up, Weekdays".
+#: src/alarms/alarmspage.cpp
+#, python-brace-format
+msgid "{label}, {repeat}"
+msgstr "{label}, {repeat}"
+
+#: src/alarms/alarmtime.cpp
+msgid "Every Day"
+msgstr "Her Gün"
+
+#: src/alarms/alarmtime.cpp
+msgid "Weekdays"
+msgstr "Hafta İçi"
+
+#: src/alarms/alarmtime.cpp
+msgid "Weekends"
+msgstr "Hafta Sonu"
+
+#: src/alarms/alarmtime.cpp
+msgid "in less than a minute"
+msgstr "bir dakikadan kısa sürede"
+
+#: src/alarms/alarmtime.cpp
+#, python-brace-format
+msgid "in {n} day"
+msgid_plural "in {n} days"
+msgstr[0] "{n} gün içinde"
+msgstr[1] "{n} gün içinde"
+
+#. TRANSLATORS: "in 1 day 3 hours"; {days} and {hours} as below.
+#: src/alarms/alarmtime.cpp
+#, python-brace-format
+msgid "in {days} {hours}"
+msgstr "{days} {hours} içinde"
+
+#: src/alarms/alarmtime.cpp
+#, python-brace-format
+msgid "{n} day"
+msgid_plural "{n} days"
+msgstr[0] "{n} gün"
+msgstr[1] "{n} gün"
+
+#: src/alarms/alarmtime.cpp src/service/alarmservice.cpp
+#, python-brace-format
+msgid "{n} hour"
+msgid_plural "{n} hours"
+msgstr[0] "{n} saat"
+msgstr[1] "{n} saat"
+
+#: src/alarms/alarmtime.cpp
+#, python-brace-format
+msgid "in {n} minute"
+msgid_plural "in {n} minutes"
+msgstr[0] "{n} dakika içinde"
+msgstr[1] "{n} dakika içinde"
+
+#: src/alarms/alarmtime.cpp
+#, python-brace-format
+msgid "in {n} hour"
+msgid_plural "in {n} hours"
+msgstr[0] "{n} saat içinde"
+msgstr[1] "{n} saat içinde"
+
+#. TRANSLATORS: "in 7 hours 20 minutes".
+#: src/alarms/alarmtime.cpp
+#, python-brace-format
+msgid "in {hours} {minutes}"
+msgstr "{hours} {minutes} içinde"
+
+#: src/alarms/alarmtime.cpp src/service/alarmservice.cpp
+#, python-brace-format
+msgid "{n} minute"
+msgid_plural "{n} minutes"
+msgstr[0] "{n} dakika"
+msgstr[1] "{n} dakika"
+
+#: src/alarms/tones.cpp
+msgid "Chime"
+msgstr "Çan"
+
+#: src/alarms/tones.cpp
+msgid "Pulse"
+msgstr "Nabız"
+
+#: src/alarms/tones.cpp
+msgid "Ripple"
+msgstr "Dalga"
+
+#: src/alarms/tones.cpp
+msgid "Glow"
+msgstr "Parıltı"
+
+#: src/alarms/tones.cpp
+msgid "Dawn"
+msgstr "Şafak"
+
+#: src/clockwindow.cpp cutefish-clock.desktop
+msgid "Clock"
+msgstr "Saat"
+
+#: src/clockwindow.cpp
+msgid "The time around the world, alarms, a stopwatch and timers."
+msgstr "Dünya saati, alarmlar, kronometre ve zamanlayıcılar."
+
+#: src/clockwindow.cpp
+msgid "About Clock"
+msgstr "Saat Hakkında"
+
+#: src/clockwindow.cpp
+msgid "Hide Clock"
+msgstr "Saati Gizle"
+
+#: src/clockwindow.cpp
+msgid "Quit Clock"
+msgstr "Saatten Çık"
+
+#: src/clockwindow.cpp
+msgid "File"
+msgstr "Dosya"
+
+#: src/clockwindow.cpp
+msgid "New"
+msgstr "Yeni"
+
+#: src/clockwindow.cpp
+msgid "Close Window"
+msgstr "Pencereyi Kapat"
+
+#: src/clockwindow.cpp
+msgid "Edit"
+msgstr "Düzenle"
+
+#: src/clockwindow.cpp
+msgid "Undo"
+msgstr "Geri Al"
+
+#: src/clockwindow.cpp
+msgid "View"
+msgstr "Görünüm"
+
+#: src/clockwindow.cpp
+msgid "Window"
+msgstr "Pencere"
+
+#: src/clockwindow.cpp
+msgid "Minimize"
+msgstr "Küçült"
+
+#: src/clockwindow.cpp
+msgid "Zoom"
+msgstr "Yakınlaştır"
+
+#: src/page.cpp
+msgid "World Clock"
+msgstr "Dünya Saati"
+
+#: src/page.cpp
+msgid "Alarms"
+msgstr "Alarmlar"
+
+#: src/page.cpp
+msgid "Stopwatch"
+msgstr "Kronometre"
+
+#: src/page.cpp
+msgid "Timers"
+msgstr "Zamanlayıcılar"
+
+#: src/service/alarmservice.cpp
+#, python-brace-format
+msgid "{n} second"
+msgid_plural "{n} seconds"
+msgstr[0] "{n} saniye"
+msgstr[1] "{n} saniye"
+
+#: src/service/alarmservice.cpp src/stopwatch/stopwatchpage.cpp
+msgid "Stop"
+msgstr "Durdur"
+
+#: src/service/alarmservice.cpp src/timers/composer.cpp
+msgid "Timer"
+msgstr "Zamanlayıcı"
+
+#. TRANSLATORS: a timer's notification, such as "5 minutes are up".
+#: src/service/alarmservice.cpp
+#, python-brace-format
+msgid "{duration} done"
+msgstr "{duration} doldu"
+
+#: src/service/alarmservice.cpp src/timers/timercard.cpp
+msgctxt "button"
+msgid "Repeat"
+msgstr "Tekrarla"
+
+#: src/stopwatch/lapslist.cpp
+#, python-brace-format
+msgid "Lap {n}"
+msgstr "Tur {n}"
+
+#: src/stopwatch/stopwatchpage.cpp src/timers/composer.cpp
+msgid "Start"
+msgstr "Başlat"
+
+#: src/stopwatch/stopwatchpage.cpp
+msgid "Lap"
+msgstr "Tur"
+
+#: src/stopwatch/stopwatchpage.cpp
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: src/timers/composer.cpp
+msgid "Recent"
+msgstr "Son Kullanılanlar"
+
+#: src/timers/timercard.cpp
+msgid "Done"
+msgstr "Bitti"
+
+#: src/timers/timercard.cpp
+#, python-brace-format
+msgid "Ended {time}"
+msgstr "{time} sona erdi"
+
+#: src/timers/timercard.cpp
+msgid "Paused"
+msgstr "Duraklatıldı"
+
+#: src/timers/timercard.cpp
+#, python-brace-format
+msgid "Ends {time}"
+msgstr "{time} bitecek"
+
+#: src/timers/timercard.cpp
+msgid "Dismiss"
+msgstr "Kapat"
+
+#: src/timers/timercard.cpp
+msgid "Resume"
+msgstr "Sürdür"
+
+#: src/timers/timercard.cpp
+msgid "Pause"
+msgstr "Duraklat"
+
+#: src/timers/timermath.cpp
+#, python-brace-format
+msgid "{n} hr"
+msgstr "{n} sa"
+
+#: src/timers/timermath.cpp
+#, python-brace-format
+msgid "{n} min"
+msgstr "{n} dk"
+
+#: src/timers/timermath.cpp
+#, python-brace-format
+msgid "{n} sec"
+msgstr "{n} sn"
+
+#: src/timers/timerspage.cpp
+msgid "New Timer"
+msgstr "Yeni Zamanlayıcı"
+
+#: src/timers/timerspage.cpp
+msgid "Clear Recent Timers"
+msgstr "Son Zamanlayıcıları Temizle"
+
+#: src/timers/wheelpicker.cpp
+msgid "hours"
+msgstr "saat"
+
+#: src/timers/wheelpicker.cpp
+msgid "min"
+msgstr "dk"
+
+#: src/timers/wheelpicker.cpp
+msgid "sec"
+msgstr "sn"
+
+#: src/world/addcitydialog.cpp
+msgid "Search city or country"
+msgstr "Şehir veya ülke ara"
+
+#: src/world/addcitydialog.cpp
+msgid "Added"
+msgstr "Eklendi"
+
+#: src/world/addcitydialog.cpp
+msgid "No matching cities"
+msgstr "Eşleşen şehir bulunamadı"
+
+#: src/world/addcitydialog.cpp src/world/emptystate.cpp
+#: src/world/worldclockpage.cpp
+msgid "Add City"
+msgstr "Şehir Ekle"
+
+#: src/world/emptystate.cpp
+msgid "No Cities"
+msgstr "Şehir Yok"
+
+#: src/world/emptystate.cpp
+msgid "Add the cities you keep in touch with to see their time and sky at a glance."
+msgstr "Saatlerini ve gökyüzü durumlarını bir bakışta görmek için iletişimde olduğunuz şehirleri ekleyin."
+
+#: src/world/worldclockpage.cpp
+msgctxt "button"
+msgid "Done"
+msgstr "Bitti"
+
+#: src/world/worldclockpage.cpp
+msgctxt "button"
+msgid "Edit"
+msgstr "Düzenle"
+
+#: src/world/worldclockpage.cpp
+msgid "Add City…"
+msgstr "Şehir Ekle…"
+
+#: src/world/worldclockpage.cpp
+msgid "Remove"
+msgstr "Kaldır"
+
+#: src/world/worldclockpage.cpp
+msgid "Done Editing"
+msgstr "Düzenlemeyi Bitir"
+
+#: src/world/worldclockpage.cpp
+msgid "Edit Cities"
+msgstr "Şehirleri Düzenle"
+
+#: src/world/zonetime.cpp
+msgid "Today"
+msgstr "Bugün"
+
+#: src/world/zonetime.cpp
+msgid "Tomorrow"
+msgstr "Yarın"
+
+#: src/world/zonetime.cpp
+msgid "Yesterday"
+msgstr "Dün"
+
+#: src/world/zonetime.cpp
+#, python-brace-format
+msgid "In {n} day"
+msgid_plural "In {n} days"
+msgstr[0] "{n} gün sonra"
+msgstr[1] "{n} gün sonra"
+
+#: src/world/zonetime.cpp
+#, python-brace-format
+msgid "{n} day ago"
+msgid_plural "{n} days ago"
+msgstr[0] "{n} gün önce"
+msgstr[1] "{n} gün önce"
+
+#: src/world/zonetime.cpp
+#, python-brace-format
+msgid "{n}HR"
+msgid_plural "{n}HRS"
+msgstr "{n}SA"
+msgstr "{n}SA"
+
+#: src/world/zonetime.cpp
+#, python-brace-format
+msgid "{hours}:{minutes}HRS"
+msgstr "{hours}:{minutes}SA"
+
+#: src/world/zonetime.cpp
+#, python-brace-format
+msgid "{day}, {offset}"
+msgstr "{day}, {offset}"
+
+#: cutefish-clock.desktop
+msgid "World clocks, alarms, a stopwatch and timers"
+msgstr "Dünya saatleri, alarmlar, kronometre ve zamanlayıcılar"
+
+#: cutefish-clock.desktop
+msgid "Clock;Time;Alarm;Timer;Stopwatch;World;Time Zone;"
+msgstr "Saat;Zaman;Alarm;Zamanlayıcı;Kronometre;Dünya;Saat Dilimi;"
+
+#: src/service/cutefish-clock-alarms.desktop
+msgid "Clock Alarms"
+msgstr "Saat Alarmları"
